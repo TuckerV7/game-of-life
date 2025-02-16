@@ -1,0 +1,38 @@
+#header {
+    display: flex;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 585px;
+    width: 1800px;
+    border-style: solid;
+    border-width: 10px;
+    margin-left: 30px;
+}
+
+#btnContainer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#cellid {
+    box-sizing: border-box;
+}
+
+.dead {
+    background-color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.alive {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
